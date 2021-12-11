@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net5.0-windows</TargetFramework>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Denisova.WPF.Controls\Denisova.WPF.Controls.csproj" />
+      <ProjectReference Include="..\Denisova.WPF.MVVM.Core\Denisova.WPF.MVVM.Core.csproj" />
+      <ProjectReference Include="..\Denisova.Wpf.MVVM\Denisova.Wpf.MVVM.csproj" />
+    </ItemGroup>
+
+</Project>

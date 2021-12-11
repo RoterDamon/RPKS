@@ -1,0 +1,12 @@
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\WPF_Otputi\bin\Debug\net5.0-windows\WPF_Otputi.deps.json
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\WPF_Otputi\bin\Debug\net5.0-windows\WPF_Otputi.dll
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\WPF_Otputi\bin\Debug\net5.0-windows\ref\WPF_Otputi.dll
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\WPF_Otputi\bin\Debug\net5.0-windows\WPF_Otputi.pdb
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\WPF_Otputi\obj\Debug\net5.0-windows\WPF_Otputi.csproj.AssemblyReference.cache
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\WPF_Otputi\obj\Debug\net5.0-windows\WPF_Otputi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\WPF_Otputi\obj\Debug\net5.0-windows\WPF_Otputi.AssemblyInfoInputs.cache
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\WPF_Otputi\obj\Debug\net5.0-windows\WPF_Otputi.AssemblyInfo.cs
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\WPF_Otputi\obj\Debug\net5.0-windows\WPF_Otputi.csproj.CoreCompileInputs.cache
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\WPF_Otputi\obj\Debug\net5.0-windows\WPF_Otputi.dll
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\WPF_Otputi\obj\Debug\net5.0-windows\ref\WPF_Otputi.dll
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\WPF_Otputi\obj\Debug\net5.0-windows\WPF_Otputi.pdb

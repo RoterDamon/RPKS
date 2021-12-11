@@ -1,0 +1,181 @@
+﻿<Window x:Class="Example.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Example"
+        xmlns:controls="clr-namespace:Denisova.WPF.Controls;assembly=Denisova.WPF.Controls"
+        xmlns:mvvm="clr-namespace:Denisova.Wpf.MVVM;assembly=Denisova.Wpf.MVVM"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.DataContext>
+        <local:MainViewModel />
+    </Window.DataContext>
+    <Grid ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0"
+                   Grid.Column="1"
+                   Text="Value:" 
+                   FontSize="30"
+                   FontWeight="UltraBold"
+                   Foreground="Teal"/>
+        <controls:NumericUpDown Grid.Row="1"
+                                Grid.Column="1"
+                                FontSize="25"
+                                TargetValueMinBound="0"
+                                TargetValueMaxBound="150"
+                                TargetValueStep="{Binding TargetValueStep}"
+                                TargetValue="{Binding TargetValue}" />
+
+        <TextBlock Grid.Row="0"
+                   Grid.Column="3"
+                   Text="Step:"
+                   FontSize="30"
+                   FontWeight="UltraBold"
+                   Foreground="Teal"/>
+        
+        <controls:NumericUpDown Grid.Row="1"
+                                Grid.Column="3"
+                                FontSize="25"
+                                TargetValue="{Binding TargetValueStep, UpdateSourceTrigger=PropertyChanged}" />
+        <Button Grid.Row="4"
+                Grid.Column="5"
+                Height="70"
+                Width="Auto"
+                FontSize="30"
+                Content="Dialog Host"
+                Command="{Binding OpenDialogCommand}" />
+        
+        <controls:DialogHost Grid.Row="0"
+                             Grid.RowSpan="6"
+                             Grid.Column="5"
+                             DialogCornerRadius="60"
+                             CloseDialogCommand="{Binding CloseDialogCommand}">
+            <controls:DialogHost.Visibility>
+                <MultiBinding Converter="{mvvm:BoolChecks}"
+                              Mode="OneWay">
+                    <MultiBinding.Bindings>
+                        <Binding Path="IsDialogOpened"
+                                 Mode="OneWay" />
+                        <Binding Source="{x:Static Visibility.Visible}" />
+                        <Binding Source="{x:Static Visibility.Collapsed}" />
+                    </MultiBinding.Bindings>
+                </MultiBinding>
+            </controls:DialogHost.Visibility>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Row="0"
+                           Grid.Column="0"
+                           Text="Хочешь рецепт булочек?" />
+               
+            </Grid>
+        </controls:DialogHost>
+
+        <TextBlock Grid.Row="2"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="3"
+                   HorizontalAlignment="Left"
+                   FontSize="30"
+                   Text="Message Dialog"
+                   FontWeight="UltraBold"
+                   Foreground="Teal"/>
+        <controls:MessageDialog Grid.Row="3"
+                                Grid.Column="0"
+                                Grid.ColumnSpan="4" 
+                                ButtonsStyle="Ok"
+                                MessageDialogText="Рецептик
+                                
+                                                
+                                                
+                                                Дрожжи сухие - 1 пакетик (11 г)
+                                                
+                                                Мука - 0,9-1 кг
+                                                
+                                                Соль - 0,5 ч. ложки
+                                                
+                                                Сахар - 120 г
+                                                
+                                                Молоко - 0,5 л
+                                                
+                                                Яйца - 1-2 шт.
+                                                
+                                                Масло сливочное (или маргарин) - 200 г (в т.ч. для начинки)
+                                                
+                                                Сахар - по вкусу
+                                                
+                                                Корица молотая - по вкусу
+                                                
+                                                Яйцо (для смазывания булочек) - 1 шт.
+                                                
+                                                1. Делаем дрожжевое тесто. Для этого сперва смешиваем сухие ингредиенты теста — просеянную муку, сахар, дрожжи и соль.
+                                                2. Молоко смешиваем с яйцом и растопленным маслом. Смесь должна быть комнатной температуры или чуть теплее, чтобы дрожжи впоследствии быстрее начали свое действие.
+                                                3. Теперь соединяем обе смеси и замешиваем тесто. 50 г муки, которые у нас остались, используем для подсыпки при замешивании теста. Не старайтесь высыпать их сразу, лучше добавляйте постепенно. Тесто должно получиться мягким, эластичным и хорошо отлипать от рук.
+                                                4. Кладем тесто в миску большего объема, накрываем пищевой пленкой и ставим в теплое место для подъема примерно на час. Нужно, чтобы тесто увеличилось вдвое.
+                                                5. Обминаем тесто и оставляем для подъема еще раз. Дважды подошедшее тесто раскатываем в прямоугольный пласт толщиной 0,5-1 см.
+                                                6. Смазываем тесто растопленным сливочным маслом, посыпаем сахаром, перемешанным с корицей.
+                                                7. Сворачиваем тесто плотным рулетом с меньшей стороны, и нарезаем поперек, кусочками толщиной 1,5-2 см.
+                                                8. Противень застилаем бумагой для выпечки и раскладываем на нем будущие булочки, оставляя между ними достаточно свободного места для подъема.
+                                                9. Смазываем каждую булочку взбитым яйцом (можно сверху еще посыпать булочки сахаром) и ставим в разогретую до 180 градусов духовку. Выпекаем булочки с корицей до золотистого цвета, около получаса."
+                                MessageDialogFontSize="20"
+                                MessageDialogFontColor="Chocolate"
+                                MessageDialogFontFamily="Comic Sans MS"
+                                MessageDialogFontWeight="Bold"
+                                LeftButtonCommand="{Binding OkButtonCommand}" />
+        
+        <TextBlock Grid.Row="2"
+                   Grid.Column="4"
+                   FontSize="30"
+                   Text="Loading Dialog"
+                   FontWeight="UltraBold"
+                   Foreground="Teal"
+                   HorizontalAlignment="Center"/>
+        <controls:LoadingDialog Grid.Row="3"
+                                Grid.Column="4"
+                                LoadingFontFamily="Comic Sans MS"
+                                LoadingFontSize="20"
+                                LoadingForegroundColor="Black">
+            
+        </controls:LoadingDialog>
+        
+        <TextBlock Grid.Row="0"
+                   Grid.Column="4"
+                   FontSize="30"
+                   Text="Spinner"
+                   Margin="0 0 40 0"
+                   Foreground="MidnightBlue"
+                   FontWeight="DemiBold"
+                   HorizontalAlignment="Right"
+                   VerticalAlignment="Top"/>
+        <Canvas Grid.Column="5" Grid.Row="1">
+            <controls:Spinner CircleBrush="Indigo"
+                              CircleOpacity="0.7"
+                              CircleSize="10"
+                              CircleNumber="5"
+                              CircleRotation="Clockwise"
+                              Speed="5"
+            />
+        </Canvas>
+    </Grid>
+</Window>

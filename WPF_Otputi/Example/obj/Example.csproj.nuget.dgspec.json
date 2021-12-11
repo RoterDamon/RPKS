@@ -1,0 +1,254 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Example\\Example.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Denisova.WPF.Controls\\Denisova.WPF.Controls.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Denisova.WPF.Controls\\Denisova.WPF.Controls.csproj",
+        "projectName": "Denisova.WPF.Controls",
+        "projectPath": "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Denisova.WPF.Controls\\Denisova.WPF.Controls.csproj",
+        "packagesPath": "C:\\Users\\WAIFU BIG FLOPPA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Denisova.WPF.Controls\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\WAIFU BIG FLOPPA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Denisova.WPF.MVVM.Core\\Denisova.WPF.MVVM.Core.csproj": {
+                "projectPath": "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Denisova.WPF.MVVM.Core\\Denisova.WPF.MVVM.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Denisova.WPF.MVVM.Core\\Denisova.WPF.MVVM.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Denisova.WPF.MVVM.Core\\Denisova.WPF.MVVM.Core.csproj",
+        "projectName": "Denisova.WPF.MVVM.Core",
+        "projectPath": "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Denisova.WPF.MVVM.Core\\Denisova.WPF.MVVM.Core.csproj",
+        "packagesPath": "C:\\Users\\WAIFU BIG FLOPPA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Denisova.WPF.MVVM.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\WAIFU BIG FLOPPA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Denisova.Wpf.MVVM\\Denisova.Wpf.MVVM.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Denisova.Wpf.MVVM\\Denisova.Wpf.MVVM.csproj",
+        "projectName": "Denisova.Wpf.MVVM",
+        "projectPath": "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Denisova.Wpf.MVVM\\Denisova.Wpf.MVVM.csproj",
+        "packagesPath": "C:\\Users\\WAIFU BIG FLOPPA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Denisova.Wpf.MVVM\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\WAIFU BIG FLOPPA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Denisova.WPF.MVVM.Core\\Denisova.WPF.MVVM.Core.csproj": {
+                "projectPath": "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Denisova.WPF.MVVM.Core\\Denisova.WPF.MVVM.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Example\\Example.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Example\\Example.csproj",
+        "projectName": "Example",
+        "projectPath": "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Example\\Example.csproj",
+        "packagesPath": "C:\\Users\\WAIFU BIG FLOPPA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Example\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\WAIFU BIG FLOPPA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Denisova.WPF.Controls\\Denisova.WPF.Controls.csproj": {
+                "projectPath": "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Denisova.WPF.Controls\\Denisova.WPF.Controls.csproj"
+              },
+              "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Denisova.WPF.MVVM.Core\\Denisova.WPF.MVVM.Core.csproj": {
+                "projectPath": "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Denisova.WPF.MVVM.Core\\Denisova.WPF.MVVM.Core.csproj"
+              },
+              "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Denisova.Wpf.MVVM\\Denisova.Wpf.MVVM.csproj": {
+                "projectPath": "C:\\Users\\WAIFU BIG FLOPPA\\RiderProjects\\WPF_Otputi\\Denisova.Wpf.MVVM\\Denisova.Wpf.MVVM.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

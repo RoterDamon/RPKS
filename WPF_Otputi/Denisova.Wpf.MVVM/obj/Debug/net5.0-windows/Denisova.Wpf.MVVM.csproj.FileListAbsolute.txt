@@ -1,0 +1,15 @@
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\Denisova.Wpf.MVVM\bin\Debug\net5.0-windows\Denisova.Wpf.MVVM.deps.json
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\Denisova.Wpf.MVVM\bin\Debug\net5.0-windows\Denisova.Wpf.MVVM.dll
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\Denisova.Wpf.MVVM\bin\Debug\net5.0-windows\ref\Denisova.Wpf.MVVM.dll
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\Denisova.Wpf.MVVM\bin\Debug\net5.0-windows\Denisova.Wpf.MVVM.pdb
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\Denisova.Wpf.MVVM\bin\Debug\net5.0-windows\Denisova.WPF.MVVM.Core.dll
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\Denisova.Wpf.MVVM\bin\Debug\net5.0-windows\Denisova.WPF.MVVM.Core.pdb
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\Denisova.Wpf.MVVM\obj\Debug\net5.0-windows\Denisova.Wpf.MVVM.csproj.AssemblyReference.cache
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\Denisova.Wpf.MVVM\obj\Debug\net5.0-windows\Denisova.Wpf.MVVM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\Denisova.Wpf.MVVM\obj\Debug\net5.0-windows\Denisova.Wpf.MVVM.AssemblyInfoInputs.cache
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\Denisova.Wpf.MVVM\obj\Debug\net5.0-windows\Denisova.Wpf.MVVM.AssemblyInfo.cs
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\Denisova.Wpf.MVVM\obj\Debug\net5.0-windows\Denisova.Wpf.MVVM.csproj.CoreCompileInputs.cache
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\Denisova.Wpf.MVVM\obj\Debug\net5.0-windows\Denisova.Wpf.MVVM.csproj.CopyComplete
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\Denisova.Wpf.MVVM\obj\Debug\net5.0-windows\Denisova.Wpf.MVVM.dll
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\Denisova.Wpf.MVVM\obj\Debug\net5.0-windows\ref\Denisova.Wpf.MVVM.dll
+C:\Users\WAIFU BIG FLOPPA\RiderProjects\WPF_Otputi\Denisova.Wpf.MVVM\obj\Debug\net5.0-windows\Denisova.Wpf.MVVM.pdb

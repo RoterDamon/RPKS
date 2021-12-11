@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Denisova.WPF.Controls/1.0.0": {
+        "dependencies": {
+          "Denisova.WPF.MVVM.Core": "1.0.0"
+        },
+        "runtime": {
+          "Denisova.WPF.Controls.dll": {}
+        }
+      },
+      "Denisova.WPF.MVVM.Core/1.0.0": {
+        "runtime": {
+          "Denisova.WPF.MVVM.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Denisova.WPF.Controls/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Denisova.WPF.MVVM.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
